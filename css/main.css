@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.slick-dots{
+    padding:0;
+    margin:0;
+    list-style:none;
+    overflow:hidden;
+    position:absolute;
+    left:50%;
+    margin-left:-54px;
+    bottom:50px;
+}
+.slick-dots li{
+    width:30px;
+    height:2px;
+    border:1px solid #000;
+    float:left;
+    text-indent:-9999px;
+    margin:0 2px;
+    cursor:pointer;
+}
+.slick-dots li.slick-active{
+    background:#000;
+}
+.slick-dots li button{
+    background:none;
+    border:0;
+}
+/*mainCon01*/
+
+.mainCon01{padding:100px 0;}
+.con01Left{
+    position:relative;
+    float:left;
+}
+.con01Left img{
+    display:block;
+}
+.con01Txt{
+    color:#000000;  
+    padding:50px 0;
+    line-height:40px;
+}
+.con01Txt p{
+    font-size:20px;
+    margin:15px 0;
+}
+.con01Txt span{
+    font-weight:bold;
+}
+.moreBtn{
+    border-bottom:1px solid #000000;
+    border-top:1px solid #D7D7D7;
+    width:245px;
+    line-height:40px;
+}
+.moreBtn a{
+    color:#000000;
+    display:block;
+    font-size:18px;
+    background:url(../images/common/plusb.png) no-repeat center center;
+}
+
+.con01Right{
+    float:right;
+    position:relative;
+}
+.back{
+    position:absolute;
+    top:50%;
+    margin-top:-155px;
+    left:-153px;
+}
+
+/*mainCon02*/
+.mainCon02{
+    padding-bottom:80px;
+}
+.conTit{
+    text-align:center;
+    color:#222;
+}
+.conTit h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+.conTit p{}
+.con02Menu01{
+    text-align:center;
+    background:url(../images/main/main04.png) no-repeat center center;
+}
+.con02Menu01 img{
+    margin-top:120px;
+}
+.con02Menu>div{
+    width:582px;
+    height:606px;
+    float:left;
+    margin-top:30px;
+    margin-right:30px;
+    text-align:center;
+    background-size:cover;
+}
+.con02Menu01 a{
+    background-color:rgba(0, 0,0,0.5);
+    width:100%;
+    height:100%;
+}
+.con02Menu>div:nth-child(2n){
+    margin-right:0;
+}
+.con02Menu>div h3{
+    text-align:center;
+    font-size:27px;
+    padding:30px 0;
+    line-height:30px;
+ 
+}
+.con02Menu>div:hover p{
+    display:block;
+    font-size:18px;
+    line-height:30px;
+}
+
+.con02Menu02{
+    text-align:center;
+    background:url(../images/main/main05.png);
+}
+
+.con02Menu02 img{
+    margin-top:120px;
+}
+
+/*mainCon03*/
+
+.mainCon03{
+    background:url(../images/main/main06.png) no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    padding-top:120px;
+    padding-bottom:240px;
+    color:#fff;
+    text-align:center;
+}
+.mainCon03 h4{
+    margin-top:75px;
+}
+.mainCon03 .con03SubTit{
+    font-size:45px;
+    font-weight:600;
+    line-height:50px;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+.con03SubTit p{
+    font-size:14px;
+}
+.mainCon03 span{
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
